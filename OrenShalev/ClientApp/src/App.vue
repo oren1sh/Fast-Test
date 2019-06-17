@@ -17,7 +17,7 @@
     </v-toolbar>
 
     <v-content>
-      <router-view />
+      <f-home />
     </v-content>
   </v-app>
 </template>
@@ -25,10 +25,10 @@
 <script>
 
   export default {
-    name: 'App',
+        name: 'App',
     data () {
       return {
-      //
+
       }
     }
   }
