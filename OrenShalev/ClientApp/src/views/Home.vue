@@ -219,13 +219,14 @@
             console.log('good update')
           } else {
             console.log(' not good update  ' + response.data)
-          }
-          // val = response.data
+            }
+            
         })
           .catch(err => {
             console.log(err)
           })
-        this.isUpdate = false
+          this.isUpdate = false
+          this.dialog = false
       }// end update root
     }
   }

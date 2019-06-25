@@ -6,8 +6,7 @@ import Home from './views/Home.vue'
 
 Vue.config.productionTip = false
 
-Vue.component("f-home", Home)
-
+Vue.component('f-home', Home)
 
 new Vue({
 

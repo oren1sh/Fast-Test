@@ -74,7 +74,7 @@ namespace OrenShalev
                 if (env.IsDevelopment())
                 {
                     spa.UseVueCli(npmScript: "serve");
-                    spa.Options.StartupTimeout = TimeSpan.FromSeconds(300);
+                    spa.Options.StartupTimeout = TimeSpan.FromSeconds(500);
                     // run npm process with client app
                     //spa.UseVueCli(npmScript: "serve", port: 8080, regex: "Compiled ");
                     // if you just prefer to proxy requests from client app, use proxy to SPA dev server instead:
